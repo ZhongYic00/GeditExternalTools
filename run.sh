@@ -6,7 +6,7 @@ name=`echo $fullname | cut -d. -f1`
 
 if [ $? -ne 0 ]; then
 	exit;
-elif [ -f "'$dir/$name.run'" ]; then
+elif [ -f "$dir/$name.run" ]; then
 	deepin-terminal -x bash -c \
 	"'$dir/$name.run';echo;echo;time" \
 	>/dev/null  2>&1;
