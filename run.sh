@@ -8,7 +8,7 @@ if [ $? -ne 0 ]; then
 	exit;
 elif [ -f "$dir/$name.run" ]; then
 	deepin-terminal -x bash -c \
-	"'$dir/$name.run';echo;echo;time" \
+	"time '$dir/$name.run';echo;echo;" \
 	>/dev/null  2>&1;
 else
 	echo "Not compiled, maybe compile(Ctrl+F5) first." > /dev/stderr;

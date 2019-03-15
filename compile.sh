@@ -10,6 +10,6 @@ if [ $? -ne 0 ]; then
 fi
 
 deepin-terminal --working-directory=$dir -x bash -c \
-"'$dir/$name.run';echo;echo;time" \
+"time '$dir/$name.run';echo;echo;" \
 >/dev/null  2>&1
 
