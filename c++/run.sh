@@ -14,3 +14,4 @@ else
 	echo "Not compiled, maybe compile(Ctrl+F5) first." > /dev/stderr;
 fi
 
+#Shift+Ctrl+F5

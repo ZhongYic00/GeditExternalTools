@@ -13,3 +13,4 @@ deepin-terminal --working-directory=$dir -x bash -c \
 "time '$dir/$name.run';echo;echo;" \
 >/dev/null  2>&1
 
+#Ctrl+F5

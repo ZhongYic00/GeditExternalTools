@@ -7,3 +7,4 @@ if [ -f "$dir/$name.run" ]; then
 rm $dir/$name.run;
 fi
 
+#Ctrl+F8
